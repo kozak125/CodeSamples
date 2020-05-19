@@ -1,6 +1,6 @@
     /// <summary>
     /// For simplicity I've skipped namespaces
-    /// Also, I now know, that fields are supposed to be private and would create properties along side them
+    /// Also, I now know, that fields are supposed to be private and would create properties alongside them
     /// If I needed to expose something to editor, I would use [SerializeField] attribute
     /// </summary>    
     public class PlayGrid : MonoBehaviour
@@ -191,7 +191,7 @@
 	/// Player cannot move back to the starting tile
 	/// Player cannot jump outside of the grid
 	/// If there is an opponent on one of the available tiles, player can jump to the tile behind the opponent, unless there is a fence inbetween
-	/// If there is and opponent on the only available tile and the tile behind the opponent is unavailable, player can jump to opponent's either side (provided it's available)
+	/// If there is an opponent on the only available tile and the tile behind the opponent is unavailable, player can jump to opponent's either side (provided it's available)
 	/// Pathfinding script ensures, that there is always a path between player and player's goal, so there is always at least one possible move
 	/// </summary>
         public List<MovementTile> CalculateAvailableTiles(Vector3 playerPosition, Vector3 otherPlayerPosition)
