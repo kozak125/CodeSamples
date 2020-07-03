@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4fc9e56d8db000548a9198ea6505bed5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - genericTreeAnimatorController: {fileID: 9100000, guid: 6102e8ffefb915942ae5c527fc9e3b0d,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
