@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb1ad8c7c6f97f4ebf4e8ee0a4f54cc, type: 3}
+  m_Name: PlayerPrimaryWeapon
+  m_EditorClassIdentifier: 
+  Projectiles: {fileID: 11400000, guid: 363e175b90b73cb439e0e637b98e46ac, type: 2}
+  ProjectileSpeed: 5
+  ConsecutiveShots: 1
+  ShouldFireAllAtOnce: 1
+  TimeBetweenGunShots: 0.1
+  TimeBetweenBulletShots: 0.1
+  FireRate: 0.3
+  RandomShotDelay: {fileID: 11400000, guid: 46c40c38adf79b249af2131477335493, type: 2}
+  Damage: 1
+  ProjectileDirection: {x: 0, y: 1}
